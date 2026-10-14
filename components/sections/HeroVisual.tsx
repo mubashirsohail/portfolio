@@ -35,7 +35,7 @@ export function HeroVisual() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_25%,rgba(230,57,70,0.4),transparent_60%),radial-gradient(ellipse_at_50%_110%,rgba(212,175,55,0.35),transparent_55%)]" />
         <div className="grid-pattern absolute inset-0 opacity-70" />
         <div className="absolute inset-0 flex flex-col items-center justify-start gap-3">
-          <img src={'/images/Pic.png'}/>
+          <Image src={'/images/Pic.png'} alt="Put Image here" width={300} height={300}/>
         </div>
       </div>
 
